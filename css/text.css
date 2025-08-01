@@ -1,0 +1,30 @@
+.text-container1{
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    opacity: 0;
+}
+.text-container1 p {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.text-container1.clicked3{
+    animation: text_appear 1.3s 1s ease-in-out forwards;
+}
+@keyframes text_appear {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
+}
