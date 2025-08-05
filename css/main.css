@@ -13,9 +13,12 @@ body {
   background-color: #5f0303;
   box-shadow: 0 0 24px #5f0303;
   border-radius: 50%;
-  cursor: pointer;
+  transform-origin: center;
  
   animation: div1_anim1 0.8s ease-in 0.2s infinite alternate;
+}
+.div1:hover {
+  cursor: pointer;
 }
 @keyframes div1_anim1 {
   0%{}
